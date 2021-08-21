@@ -13,3 +13,5 @@
 `processor`是处理器，它监听多个`Queue`，按一定的规则从某些`Queue`中获取消息，然后将处理后的消息重新发送给特定的`Exchange`。
 
 每一个`adapter`和`processor`都应当在自己的`README.md`中说明如何在配置文件中配置监听队列和交换机。
+
+![数据流图](dfd.png)
